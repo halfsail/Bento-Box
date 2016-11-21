@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="scss/bento.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+</head>
+<body>
+  <nav>
+    <div class="container">
+    <section class="navbar-branding">
+      <a href="">bento</a>
+    </section>
+    <section class="link-area">
+      <span href="" class="navLink drop">Components
+      <div class="dropdownContain">
+        <div class="dropOut">
+          <div class="triangle"></div>
+          <ul>
+            <li><a href="#card">Card</a></li>
+            <li><a href="#card">Headlines</a></li>
+            <li><a href="#button">Buttons</a></li>
+            <li><a href="#input">Inputs</a></li>
+            <li><a href="#lists">List</a></li>
+            <li><a href="#table">Tables</a></li>
+            <li><a href="#images">Image</a></li>
+          </ul>
+        </div>
+      </div>
+    </span>
+
+      <span href="" class="navLink drop">CSS
+        <div class="dropdownContain">
+          <div class="dropOut">
+            <div class="triangle"></div>
+            <ul>
+              <li><a href="">Grid</a></li>
+              <li><a href="">Navbar</a></li>
+              <li><a href="">DropDowns</a></li>
+            </ul>
+          </div>
+        </div>
+      </span>
+      <a href="" class="navLink">Download</a>
+    </section>
+  </div>
+  </nav>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row" style="margin-top: 25%">
+      <div class="one-third column">
+        <img src="images/bentobox.png" alt="" style="height:250px; width:auto; ">
+      </div>
+      <div class="one-half column">
+        <h4>Bento Box</h4>
+        <p>This index.html page contains all the ui element that will used in the superseede project. It is based on the Skeleton CSS boilerplate. Using the typographic sizes and the 960 grid. But with aded components for images, navbar, flexbox grids and theming. If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+        <a href="" class="button button-primary">Download It</a> <a href="" class="button"> Fork It</a>
+      </div>
+    </div>
+    <hr id="card">
+    <article class="row">
+      <div class="seven columns">
+        <h4>Card</h4>
+        <p>The card component is used to get a closer look at a post. Otherwise you the <a href="#postImage">post image</a> component.
+          The card component is the only component that shows a post description.</p>
+        <article class="card">
+        <img src="http://placehold.it/350x350">
+        <section class="caption">
+          <h6>user name</h6>
+          <p>hipster love their cold brew</p>
+        </section>
+        </article>
+      </div>
+      <div class="three columns">
+        <h4>Headline examples</h4>
+        <h1>Headline 1</h1>
+        <h2>Headline 2</h2>
+        <h3>Headline 3</h3>
+        <h4>Headline 4</h4>
+        <h5>Headline 5</h5>
+        <h6>Headline 6</h6>
+    </div>
+    </article>
+    <article class="row">
+      <hr id="button">
+      <h4>Buttons</h4>
+      <p>Buttons come in two basic flavors in Bento. The standard <code>.button</code> element is plain, whereas the <code>.button-primary </code> button is vibrant and has a drop shadow on hover</p>
+        <section>
+          <!-- Primary buttons -->
+          <a class="button button-primary" href="#">Anchor button</a>
+          <button class="button-primary">Button element</button>
+          <input class="button-primary" type="submit" value="submit input">
+          <input class="button-primary" type="button" value="button input">
+        </section>
+        <section>
+          <!-- Standard buttons -->
+          <a class="button" href="#">Anchor button</a>
+          <button>Button element</button>
+          <input type="submit" value="submit input">
+          <input type="button" value="button input">
+        </section>
+    </article>
+    <article class="row">
+      <hr id="input">
+      <h4>Input</h4>
+<div class="row">
+<div class="six columns">
+<label for="exampleEmailInput">Your email</label>
+<input class="u-full-width underline" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+</div>
+<div class="six columns">
+<label for="exampleRecipientInput">Reason for contacting</label>
+<select class="u-full-width" id="exampleRecipientInput">
+  <option value="Option 1">Questions</option>
+  <option value="Option 2">Admiration</option>
+  <option value="Option 3">Can I get your number?</option>
+</select>
+</div>
+</div>
+<label for="exampleMessage">Message</label>
+<textarea class="u-full-width solid" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+<label class="example-send-yourself-copy">
+<input type="checkbox">
+<span class="label-body">Send a copy to yourself</span>
+</label>
+<input class="button-primary" type="submit" value="Submit">
+</form>
+    </article>
+    <hr id="list">
+    <article class="row">
+      <h4>List</h4>
+      <p>In bento you have three different list options. With the final option <code>.noStyle</code> has no list-style.</p>
+      <div class="three columns">
+        <ol>
+          <li>Order List</li>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+          <li>item 4</li>
+          <li>item 5</li>
+        </ol>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li>Unordered list</li>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+          <li>item 4</li>
+          <li>item 5</li>
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul class="noStyle">
+          <li>No style</li>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+          <li>item 4</li>
+          <li>item 5</li>
+        </ul>
+      </div>
+    </article>
+    <hr id="table">
+    <article class="row">
+      <h4>Tables</h4>
+      <p>Tables need to by properly formated with <code>thead</code> and <code>tbody</code>.</p>
+      <table class="u-full-width">
+    <thead>
+      <tr>
+        <th>Pokemon</th>
+        <th>Level</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Bulbsaur</td>
+        <td>5</td>
+        <td>Grass</td>
+      </tr>
+      <tr>
+        <td>Charamder</td>
+        <td>5</td>
+        <td>Fire</td>
+      </tr>
+      <tr>
+        <td>Squirtle</td>
+        <td>5</td>
+        <td>Water</td>
+      </tr>
+    </tbody>
+  </table>
+    </article>
+    <hr id="images">
+    <article class="row">
+      <h4 id="postImage">Post Images</h4>
+      <p>These simple flexbox items will wrap to form grids base of the document size.
+        On hover the image lifts off the page to give the user feed back Both the image and user name are links that will take you to different places.</p>
+        <section class="flexGrid">
+          <article class="postImage">
+            <a href="">
+              <img src="http://placehold.it/250">
+            </a>
+            <p><a href="#">User Name</a></p>
+          </article>
+          <article class="postImage">
+            <a href="">
+              <img src="http://placehold.it/250">
+            </a>
+            <p><a href="#">User Name</a></p>
+          </article>
+          <article class="postImage">
+            <a href="">
+              <img src="http://placehold.it/250">
+            </a>
+            <p><a href="#">User Name</a></p>
+          </article>
+        </section>
+    <hr>
+    <h4>Avatar Images</h4>
+    <p>These circles images shape also helps them distinguished users from posts. Unlike the post image element the whole avatar image section is a giant link.
+    Their show only be one row of six at anytime on the main feeds.</p>
+    <section class="flexGrid">
+      <article class="avatarImage">
+        <a href="">
+          <img src="http://placehold.it/100">
+          <p href="#">User Name</p>
+        </a>
+      </article>
+      <article class="avatarImage">
+        <a href="">
+          <img src="http://placehold.it/100">
+          <p href="#">User Name</p>
+        </a>
+      </article>
+      <article class="avatarImage">
+        <a href="">
+          <img src="http://placehold.it/100">
+          <p href="#">User Name</p>
+        </a>
+      </article>
+      <article class="avatarImage">
+        <a href="">
+          <img src="http://placehold.it/100">
+          <p href="#">User Name</p>
+        </a>
+      </article>
+      <article class="avatarImage">
+        <a href="">
+          <img src="http://placehold.it/100">
+          <p href="#">User Name</p>
+        </a>
+      </article>
+      <article class="avatarImage">
+        <a href="">
+          <img src="http://placehold.it/100">
+          <p href="#">User Name</p>
+        </a>
+      </article>
+
+  </section>
+    </article>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
