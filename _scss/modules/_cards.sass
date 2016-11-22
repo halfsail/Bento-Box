@@ -1,0 +1,54 @@
+.card
+  background: white
+  max-width: 350px
+  width: 350px
+  height: auto
+  box-shadow: 0 12px 24px rgba(0, 0, 0, .08)
+  border: 1px solid rgba(0,0,0,.08)
+  margin-bottom: 2em
+  a
+    text-decoration: none
+    color: #a4a4a
+  &:hover
+    box-shadow: 0 12px 24px rgba(0, 0, 0, .2)
+.caption
+  padding: .5em 1.5em
+  font-size: 14px
+  line-height: 18px
+.flexGrid
+  display: flex
+  align-content: center
+  justify-content: space-between
+  width: 100%
+  flex-wrap: wrap
+  .postImage
+    display: flex
+    flex-direction: column
+    max-width: 250px
+    width: 250px
+    a
+      margin-top: auto
+      img
+        box-shadow: 0 4px 8px rgba(0,0,0,.08)
+        margin-bottom: .5em
+        transition: 250ms ease-out
+        &:hover
+          box-shadow: 0 12px 24px rgba(0, 0, 0, .15)
+    a
+      text-decoration: none
+      color: #4a4a4a
+      &:hover
+        color: $primary-color
+.avatarImage
+  width: 100px
+  text-align: center
+  &:hover img
+    box-shadow: 0 9px 18px rgba(0, 0, 0, .15)
+  img
+    box-shadow: 0 4px 8px rgba(0,0,0,.08)
+    border-radius: 50%
+    transition: 250ms ease-out
+    margin-bottom: .5em
+  a
+    text-decoration: none
+    color: #4a4a4a
