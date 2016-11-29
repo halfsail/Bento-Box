@@ -1,0 +1,96 @@
+<div class="container"  id="grid">
+        <hr>
+        <h4>Grid</h4>
+        <p>Bento's grid makes use of flexboxes. By default the flex container is set to center items vertically and space-between items.
+          To use the grid give a parent container the class of <code>.grid</code>. Then give the children of the <code>.grid</code> a class name of <code>.one </code>through <code>.twelve </code>.</p>
+
+          <h5>Default Grid Example</h5>
+          <div class="grid">
+            <article class="one">one</article>
+            <article class="eleven">eleven</article>
+          </div>
+
+          <div class="grid">
+            <article class="two">two</article>
+            <article class="ten">ten</article>
+          </div>
+
+          <article class="grid">
+            <article class="three">three</article>
+            <article class="nine">nine</article>
+          </article>
+
+          <article class="grid">
+            <article class="four">four</article>
+            <article class="eight">eight</article>
+          </article>
+
+          <article class="grid">
+            <article class="five">five</article>
+            <article class="seven">seven</article>
+          </article>
+
+          <article class="grid">
+            <article class="six">six</article>
+            <article class="six">six</article>
+          </article>
+
+          <article class="grid">
+            <article class="seven">seven</article>
+            <article class="five">five</article>
+          </article>
+
+          <article class="grid">
+            <article class="eight">eight</article>
+            <article class="four">four</article>
+          </article>
+
+          <article class="grid">
+            <article class="nine">nine</article>
+            <article class="three">three</article>
+          </article>
+
+          <article class="grid">
+            <article class="ten">ten</article>
+            <article class="two">two</article>
+          </article>
+
+          <article class="grid">
+            <article class="eleven">eleven</article>
+            <article class="one">one</article>
+          </article>
+
+          <article class="grid">
+            <article class="twelve">twelve</article>
+          </article>
+
+          <article class="grid">
+            <article class="three">three</article>
+            <article class="three">three</article>
+            <article class="three">three</article>
+            <article class="three">three</article>
+          </article>
+
+          <h5>Grid with the start modifier</h5>
+          <p>Unlike the default grid. By adding the <code>.start</code> to your class name. The grid will not distribute the items evenly. But instead align them to the left</p>
+          <article class="grid start">
+            <article class="one">one</article>
+            <article class="two">two</article>
+            <article class="three">three</article>
+
+          </article>
+          <h5>Center modifier</h5>
+          <p>By adding a <code>.center</code> to your grid's class name it will center any grid item inside of the grid. This will override the <code>.start</code> modifier.</p>
+          <article class="grid center">
+            <article class="eight">eight</article>
+
+          </article>
+        </article>
+        <article class="container">
+          <h5>Column modifier</h5>
+          <p>You can make items in the grid stack instead of going horizontally by add the <code>.column</code> class name to the grid. This modifier does not override the <code>.start</code> modifier</p>
+          <article class="grid center">
+            <article class="eight">eight</article>
+            <article class="eight">eight</article>
+          </article>
+        </article>

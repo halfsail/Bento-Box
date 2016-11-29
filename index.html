@@ -3,20 +3,13 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  {% include about.html %}
+  {% include card-headlines.html %}
+  {% include button.html %}
+  {% include input.html%}
+  {% include list.html %}
+  {% include table.html %}
+  {% include image.html%}
 
 
 </div>
